@@ -63,7 +63,7 @@ class App extends Component {
               updateFilters={this.updateStateWithFilters}
               resetFilters={this.resetFilters}
             />
-            <Route exact path="/react-test"
+            <Route exact path="/react-test/"
               render={()=><Discover
                 title="Discover"
                 updateFilters={this.updateStateWithFilters}
